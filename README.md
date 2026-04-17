@@ -1,2 +1,13 @@
 # carlos.github.io
-Portafolio personalizado de Carlos herrero
+#Portafolio personalizado de Carlos herrero
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset=UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta name="description" content="Portafolio" />
+    <meta name="keywords" content="CV,trabajo, logros, méritos" />
+    <meta name="author" content="Carlos Herrero Solá" />
+    <title>Portafolio</title>
+  </head>
