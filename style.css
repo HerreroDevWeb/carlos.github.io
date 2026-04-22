@@ -5,8 +5,9 @@ body {
 }
 header {
   background-color: gold;
-}
-.logo {
+  .logo {
   widht:80px;
   height:80px;
+  }
 }
+
