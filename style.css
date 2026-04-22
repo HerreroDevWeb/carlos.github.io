@@ -6,3 +6,7 @@ body {
 header {
   background-color: gold;
 }
+.logo {
+  widht:80px;
+  height:80px;
+}
