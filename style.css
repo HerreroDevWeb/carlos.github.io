@@ -3,3 +3,6 @@ body {
   font-family: 'Inter', sans-serif;
   color: white;
 }
+header {
+  background-color: gold;
+}
