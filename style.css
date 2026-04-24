@@ -115,6 +115,13 @@ section {
     color: white;
     margin-bottom: 60px; /*Espacio entre secciones*/
 } 
+
+.proyectohtml-imagen {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
 /*-------------Componentes---------*/
 
 button {
