@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+/*-----------Variables y Reset----------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+} 
+/*----------------Estilos Generales------------------*/
+body {
+    background-image: url(Imagenes/espacio.avif); /*Añade una imagen de fondo de pantalla*/
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: "Space Grotesk", sans-serif;
+} 
+
+body h2 {
+    color: #fde68a;
+    font-size: 32px;
+}
+
+body h3 {
+    color:#fde68a;
+    font-size: 24px;
+}
+/*------------------Header------------------*/
+header .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-h1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header {
+    display: flex; /*Coloca los objetos en horizontal*/
+    align-items: center; /*Centra los elementos*/
+    justify-content: space-between; /*Distribuye los elementos horizontales empujando el primero a la izquierda y el últim a la derecha*/
+    padding: 16px 32px; /*Añade espacio interior en el header*/
+    background-color: rgba(0,0,0,0.6);
+    /*backdrop-filter: blur(0px); Efecto cristal*/
+    flex-direction: column; /* apila elementos en vertical */
+    gap: 20px; /*Crea espacio*/
+}
+
+h1 {
+    color:#fde68a;
+    font-size: 40px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    gap: 16px;
+}
+
+header nav button {
+    background-color: transparent;
+    border: 1px solid #fde68a;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer; /*Cursor de mano al pasar*/
+} 
+
+header nav button a {
+    color: #fde68a;
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+}
+
+header nav button:hover {
+    background-color: #fde68a; /*Fondo amarillo al pasar el cursos*/
+}
+
+header nav button:hover a {
+    color: black;
+}
+
+/*-------------Main y secciones-----------------*/
+main {
+    background-color: black;
+    padding: 40px 60px; /*Añade espacio interior*/
+}
+
+main p {
+    font-size: 16px;
+    color: white;
+}
+
+main p strong {
+    color: #a78bfa;
+}
+
+main ul li {
+    color: white;
+    margin-bottom: 8px; /*Espacio entre items */
+    list-style: none; /*quita el punto negro */
+    padding-left: 12px;
+}
+
+main ul li::before {
+    content: "▹ "; /*Añade un simbolo*/
+    color: #a78bfa;
+}
+
+section {
+    color: white;
+    margin-bottom: 60px; /*Espacio entre secciones*/
+} 
+/*-------------Componentes---------*/
+
+button {
+     background-color: transparent;
+    border: 1px solid #fde68a;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer; /*Cursor de mano al pasar*/
+}
+
+button a {
+    color: #fde68a;
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #fde68a; /*Fondo amarillo al pasar el cursos*/
+}
+
+button:hover a {
+    color: black;
+}
+
+.boton-cv {
+    padding: 0px;
+}
+
+/*---------------Footer--------------*/
+footer {
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 40px 60px; /*Aumenta el espacio interior*/
+} 
+
+.redes {
+    width: 50px;
+    height: 50px;
+}
+
+.iconos-redes {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+/*-------------Responsive-----------------*/
+@media (max-width: 768px) {
+
+} 
