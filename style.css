@@ -200,5 +200,35 @@ footer {
 }
 /*-------------Responsive-----------------*/
 @media (max-width: 768px) {
+     h1 {
+        font-size: 28px;
+    }
 
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    header nav button {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    main {
+        padding: 20px 16px;
+    }
+
+    .html-imagenes {
+        flex-direction: column;
+    }
+
+    .proyectohtml-imagen {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        padding: 20px 16px;
+    }
 } 
