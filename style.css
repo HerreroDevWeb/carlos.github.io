@@ -123,7 +123,21 @@ section {
     border-radius: 6px; /* bordes redondeados, queda mejor */
 }
 
+.proyectowp-imagen {
+    width: 200px;  /* o el tamaño que quieras */
+    height: 120px;
+    object-fit: cover; /* recorta la imagen para que encaje */
+    border-radius: 6px; /* bordes redondeados, queda mejor */
+}
+
 .html-imagenes {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+    flex-wrap: wrap; /* si no caben, saltan a la siguiente línea */
+}
+
+.wp-imagenes {
     display: flex;
     gap: 12px;
     margin-top: 12px;
